@@ -4,6 +4,12 @@ A local-only operations console: a Fastify server and a React admin UI that brin
 
 **Why:** one personal dashboard for a one-person studio, bound to the owner's machine. Nothing is sent automatically; leads go to a human-review inbox.
 
+## Screenshots
+
+![Local-first ERP workspace dashboard with demo data.](docs/screenshots/dashboard.png)
+
+*Local-first ERP workspace dashboard with demo data.*
+
 ## Key features
 - **Admin UI** (`src/client/`): dashboard, sources, YouTube cases, search, Jarvis HUD and an omnibar.
 - **Local metadata store** (`src/metadata-store.ts`) behind Fastify routes (`src/app.ts`).
