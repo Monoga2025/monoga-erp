@@ -1,0 +1,35 @@
+export const dashboardDemoData = {
+  disclosure: 'Presentación de referencia · datos demostrativos, no persistidos',
+  hero: {
+    greeting: '¡Hola, Alex! 👋',
+    title: 'Panel administrativo',
+    subtitle: 'Organiza tus proyectos, tareas y recursos en un solo lugar para construir más, mejor y más rápido.',
+    quoteLabel: 'DISCIPLINA + IA + CREACIÓN = LIBERTAD',
+    quote: '“Construye hoy la versión de ti que quiere el futuro.”',
+  },
+  folders: [
+    ['Apps Web', 'Aplicaciones web con IA', '5 proyectos', 'blue'],
+    ['Bots', 'Bots y asistentes automatizados', '3 proyectos', 'purple'],
+    ['Dashboards', 'Paneles y herramientas internas', '4 proyectos', 'green'],
+    ['Landing Pages', 'Sitios y lanzamientos de productos', '3 proyectos', 'yellow'],
+    ['Automatizaciones', 'Workflows y procesos automatizados', '4 proyectos', 'pink'],
+    ['Agentes IA', 'Agentes y sistemas multi-IA', '6 proyectos', 'cyan'],
+  ],
+  tasks: [
+    ['Revisar y optimizar prompts del agente de soporte', 'En progreso', 'Hoy', 'blue'],
+    ['Desplegar nuevo bot en producción', 'Alta', 'Hoy', 'red'],
+    ['Terminar detalles de la interfaz del dashboard', 'En progreso', 'Mañana', 'blue'],
+    ['Probar integraciones con APIs externas', 'Media', 'Mañana', 'yellow'],
+    ['Grabar guion de YouTube (automatizaciones con IA)', 'Alta', 'Vie, 16 May', 'red'],
+    ['Revisar feedback del cliente - Proyecto Aurora', 'Media', 'Vie, 16 May', 'yellow'],
+    ['Actualizar documentación técnica', 'Baja', 'Sáb, 17 May', 'green'],
+  ],
+  schedule: {
+    subtitle: 'Tu planificación y bloques de trabajo.',
+    days: ['Lun\n12 May', 'Mar\n13 May', 'Mié\n14 May', 'Jue\n15 May', 'Vie\n16 May'],
+    slots: ['09:00', '11:00', '13:00', '15:00', '17:00'],
+    events: ['Desarrollo\nApp Web', 'Revisión\ncódigo', 'Automatizaciones', 'Cliente\nNovaTech', 'Grabación\nYouTube', 'Reunión\nequipo', 'Testing\nbots', 'UI / Diseño', 'Documentación', 'Trabajo\nprofundo', 'Integraciones\nAPI', 'Agentes IA', 'Planificación', 'Edición\nvídeo'],
+  },
+  clients: [['NovaTech', 'Plataforma de automatización con IA', 'Activo'], ['Luna Branding', 'Landing page y embudos', 'Activo'], ['Soluciones Orbitales', 'Dashboard interno', 'En revisión'], ['Estudio Creativo', 'Automatizaciones y bots', 'Activo'], ['Proyecto Mars', 'Agente IA personalizado', 'Propuesta']],
+  notes: ['Idea: Crear una serie en YouTube sobre “Cómo construir agentes IA paso a paso”.', 'Explorar nuevas integraciones con APIs de voz para próximos proyectos.', 'Mejorar la plantilla de prompts para clientes. Funcionó muy bien en el último proyecto.'],
+} as const;
